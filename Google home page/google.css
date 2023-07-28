@@ -1,0 +1,162 @@
+.g {
+  margin-top: 100px;
+  margin-left: 35vw;
+  width: 60vw;
+  margin-bottom: 20px;
+
+}
+
+.g img {
+  height: 180px;
+}
+
+.search {
+  width: 700px;
+  border: 1px solid grey;
+  height: 40px;
+  border-radius: 21px;
+  padding: 3px;
+  margin-left: 25vw;
+  vertical-align: top;
+  transition: box-shadow 0.6ms;
+}
+
+.search:hover {
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, .3);
+}
+
+.search .s {
+  width: 40px;
+  height: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 20px;
+  vertical-align: top;
+}
+
+.search .m {
+  width: 20px;
+  height: 25px;
+  margin: 8px;
+  vertical-align: top;
+  border-radius: 15px;
+  margin-left: 5px;
+}
+
+.search input {
+  width: 600px;
+  border: none;
+  font-size: 20px;
+  text-align: left;
+  vertical-align: auto;
+  padding-top: 2px;
+
+  height: 35px;
+}
+
+.search input:focus {
+  outline: none;
+}
+
+.shortcut {
+  margin: 40px;
+  align-content: center;
+  margin-left: 30vw;
+  justify-content: center;
+}
+
+.shortcut button {
+  width: fit-content;
+  padding: 8px;
+  height: 40px;
+  border: none;
+  font-weight: 500;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 4px;
+  margin: 5px;
+  background-color: #e9ecef;
+  cursor: pointer;
+  transition: border 0.6s, box-shadow 0.6s;
+  box-sizing: border-box;
+}
+
+.shortcut button:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+  border: 1px solid #dadce0;
+}
+
+.shortcut button:active {
+  border: 1.5px solid #0c80f5;
+}
+
+.shortcut .gs {
+  margin-left: 150px;
+}
+
+.shortcut button a {
+  text-decoration: none;
+  font-weight: 15px;
+  color: black;
+}
+
+.myapp {
+  background-color: white;
+  margin-left: 27vw;
+  width: 650px;
+  margin-bottom: 100px;
+}
+
+.myapp a {
+  text-decoration: none;
+}
+
+.app {
+  width: 120px;
+  margin: 4px;
+  background-color: #caf0f8;
+  display: inline-block;
+  text-align: center;
+  height: 130px;
+  margin-right: 0;
+  transition: all 0.6ms;
+  cursor: pointer;
+  border-radius: 2px;
+  border: none;
+}
+
+.app:hover {
+  box-shadow: 0 0 2px 2px rgba(31, 31, 31, 0.8);
+  transform: translateY(-0.25em);
+  font-weight: 600;
+}
+
+.myapp a .app:hover p {
+  color: #5356e2;
+}
+
+
+
+.myapp a .app .icon img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border: none;
+  border-radius: 30px;
+  margin: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  vertical-align: top;
+}
+
+.myapp a .app p {
+  display: inline-block;
+  color: #284b63;
+  font-weight: 550;
+  height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  margin-top: 0;
+  vertical-align: top;
+}
