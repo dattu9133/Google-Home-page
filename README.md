@@ -9,7 +9,7 @@ This is a simple re-creation of the Google home page using HTML and CSS. It is a
 
 ## Getting Started
 
-To view the webpage, simply open the `index.html` file in your web browser.
+To view the webpage, simply open the `google.html` file in your web browser.
 
 ## Features
 
