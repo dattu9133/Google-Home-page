@@ -15,13 +15,13 @@ To view the webpage, simply open the `google.html` file in your web browser.
 
 - Search bar with Google logo.
 - Buttons for "Google Search" and "I'm Feeling Lucky."
-- Links to various Google services in the footer.
+- icons to various websites which I use frequently.
 
 ## How to Use
 
-1. Open the `index.html` file in your preferred web browser.
+1. Open the `google.html` file in your preferred web browser.
 2. Type your search query in the search bar and press "Enter" or click on the "Google Search" button.
-3. To access other Google services, click on the respective links in the footer.
+3. To access other websites, click on the respective links in the icon.
 
 ## Customization
 
